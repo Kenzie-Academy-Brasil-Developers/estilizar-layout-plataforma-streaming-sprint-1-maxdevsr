@@ -1,4 +1,4 @@
-/*
+                                                                                                    /*
 Theme Name: KenzieFlix
 Author: Kenzie Academy
 Author URI: kenzie.com.br;
@@ -13,26 +13,97 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** RODAPÉ
 **** PÁGINA INICIAL
 */
-
-/* VARIÁVEIS */
-:root{
-  
-}
-
-/*BODY*/
-	body{
-
-	}
-
-/*TOPO*/
-	header.topo{
-		
-	}
-
-/*RODAPÉ*/
-	
-
-/*PÁGINA INICIAL*/
-	div.pg-home{
-		
-	}
+                                                                                                /* VARIÁVEIS */
+                                                                                                
+                                                                                                 :root {
+                                                                                                    color: #00002E;
+                                                                                                }
+                                                                                                /*BODY*/
+                                                                                                
+                                                                                                body {
+                                                                                                    background: #00002E;
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    align-items: center;
+                                                                                                    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                                                                                }
+                                                                                                
+                                                                                                section {
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    align-items: center;
+                                                                                                    justify-content: center;
+                                                                                                }
+                                                                                                
+                                                                                                h2 {
+                                                                                                    font-size: 55px;
+                                                                                                    color: white;
+                                                                                                    margin-bottom: 30px;
+                                                                                                    margin-top: 20px;
+                                                                                                }
+                                                                                                
+                                                                                                h3 {
+                                                                                                    color: white;
+                                                                                                    text-align: center;
+                                                                                                }
+                                                                                                /*TOPO*/
+                                                                                                
+                                                                                                .topo {
+                                                                                                    background-image: linear-gradient(black, #00002E);
+                                                                                                    width: 100%;
+                                                                                                    display: flex;
+                                                                                                    justify-content: center;
+                                                                                                }
+                                                                                                
+                                                                                                ul {
+                                                                                                    display: flex;
+                                                                                                    align-items: center;
+                                                                                                    justify-content: center;
+                                                                                                    max-width: 858px;
+                                                                                                    flex-wrap: wrap;
+                                                                                                }
+                                                                                                
+                                                                                                li {
+                                                                                                    width: 186px;
+                                                                                                    flex-direction: column;
+                                                                                                    margin: 30px;
+                                                                                                    display: flex;
+                                                                                                    align-items: center;
+                                                                                                }
+                                                                                                
+                                                                                                .setimage img {
+                                                                                                    width: 170px;
+                                                                                                    height: 170px;
+                                                                                                    align-items: center;
+                                                                                                }
+                                                                                                
+                                                                                                img:hover {
+                                                                                                    cursor: pointer;
+                                                                                                    border: 2px white solid;
+                                                                                                    box-shadow: 10px 5px 5px black;
+                                                                                                }
+                                                                                                
+                                                                                                button {
+                                                                                                    border: white solid 2px;
+                                                                                                    background-color: #00002E;
+                                                                                                    color: white;
+                                                                                                    padding: 20px 40px 20px 40px;
+                                                                                                    border-radius: 3px;
+                                                                                                    display: flex;
+                                                                                                    margin: 30px;
+                                                                                                }
+                                                                                                
+                                                                                                button:hover {
+                                                                                                    box-shadow: 10px 5px 5px black;
+                                                                                                }
+                                                                                                /*RODAPÉ*/
+                                                                                                
+                                                                                                @media (min-width: 800px) {
+                                                                                                    /*PÁGINA INICIAL*/
+                                                                                                    .topo {
+                                                                                                        display: block;
+                                                                                                    }
+                                                                                                    ul {
+                                                                                                        flex-wrap: nowrap;
+                                                                                                    }
+                                                                                                    div.pg-home {}
